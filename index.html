@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente Gemini ESP32</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <img id="assistant-gif" src="/idle.gif" alt="Assistente" class="assistant-image">
+        
+        <div id="response-container">
+            <p id="response-text">Olá! Estou online. Qual é a sua pergunta?</p>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="prompt-input" placeholder="Digite sua pergunta..." required>
+            <button id="send-button">Enviar</button>
+        </div>
+    </div>
+    
+    <script src="/script.js"></script>
+</body>
+</html>
